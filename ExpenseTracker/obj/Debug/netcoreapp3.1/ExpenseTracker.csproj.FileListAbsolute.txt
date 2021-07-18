@@ -1,0 +1,12 @@
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/bin/Debug/netcoreapp3.1/ExpenseTracker.deps.json
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/bin/Debug/netcoreapp3.1/ExpenseTracker.runtimeconfig.json
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/bin/Debug/netcoreapp3.1/ExpenseTracker.runtimeconfig.dev.json
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/bin/Debug/netcoreapp3.1/ExpenseTracker.dll
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/bin/Debug/netcoreapp3.1/ExpenseTracker.pdb
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/obj/Debug/netcoreapp3.1/ExpenseTracker.csproj.AssemblyReference.cache
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/obj/Debug/netcoreapp3.1/ExpenseTracker.AssemblyInfoInputs.cache
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/obj/Debug/netcoreapp3.1/ExpenseTracker.AssemblyInfo.cs
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/obj/Debug/netcoreapp3.1/ExpenseTracker.csproj.CoreCompileInputs.cache
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/obj/Debug/netcoreapp3.1/ExpenseTracker.dll
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/obj/Debug/netcoreapp3.1/ExpenseTracker.pdb
+/Users/itsmejoeyb/dev/ExpenseTracker/ExpenseTracker/obj/Debug/netcoreapp3.1/ExpenseTracker.genruntimeconfig.cache
