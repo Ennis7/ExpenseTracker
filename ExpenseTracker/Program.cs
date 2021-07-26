@@ -127,8 +127,8 @@ namespace ExpenseTracker
         {
             // Uses multiple data files in this method
 
-            string dataPath = "Data/Expenses.txt";
-            string budgetPath = "Data/Budget.txt";
+            string dataPath = @"Data/Expenses.txt";
+            string budgetPath = @"Data/Budget.txt";
             bool noBudget = false;
 
             double budget = 0;
@@ -179,7 +179,7 @@ namespace ExpenseTracker
 
         static void SetBudget()
         {
-            string dataPath = "Data/Budget.txt";
+            string dataPath = @"Data/Budget.txt";
             double budget;
             string menuChoice;
             bool exiting = false;
@@ -242,7 +242,7 @@ namespace ExpenseTracker
 
         static void AverageExpenses()
         {
-            string dataPath = "Data/Expenses.txt";
+            string dataPath = @"Data/Expenses.txt";
             List<double> costs = new List<double>();
             double cost;
 
@@ -265,7 +265,7 @@ namespace ExpenseTracker
 
         static void ReviewExpenses()
         {
-            string dataPath = "Data/Expenses.txt";
+            string dataPath = @"Data/Expenses.txt";
             string menuChoice;
             bool exiting = false;
 
@@ -312,7 +312,7 @@ namespace ExpenseTracker
             string dateToEdit, confirmDelete;
             bool exiting = false;
             int expenseToEdit;
-            string dataPath = "Data/Expenses.txt";
+            string dataPath = @"Data/Expenses.txt";
 
 
             DisplayHeader("Edit Expense");
@@ -372,7 +372,7 @@ namespace ExpenseTracker
             string dateToEdit, changedExpense;
             bool exiting = false;
             int expenseToEdit, index;
-            string dataPath = "Data/Expenses.txt";
+            string dataPath = @"Data/Expenses.txt";
 
 
             DisplayHeader("Edit Expense");
@@ -431,7 +431,7 @@ namespace ExpenseTracker
             string expense;
             bool exiting = false;
 
-            string dataPath = "Data/Expenses.txt";
+            string dataPath = @"Data/Expenses.txt";
 
             DisplayHeader("Input Expenses");
             Console.WriteLine("Enter any new expenses in this format [$1.00, description, mm/dd/yy] then press enter, type done when finished:");
