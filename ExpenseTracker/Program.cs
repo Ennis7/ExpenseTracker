@@ -43,6 +43,8 @@ namespace ExpenseTracker
                 Console.WriteLine("Enter Choice:");
                 menuChoice = Console.ReadLine();
 
+                // using switch case code block here
+
                 switch (menuChoice)
                 {
                     case "1":
@@ -78,9 +80,9 @@ namespace ExpenseTracker
             DisplayHeader("Instructions");
 
             Console.WriteLine("This application is design to help the user track their expenses and keep a budget. The main menu consist of...\n\n" +
-                "Input Expenses:\n\n This is where daily expenses are enter (example: amount, description, date) when finished the user will enter done and then push any button to return to the main menu.\n\n" +
-                "Review Expenses:\n\n When reviewing expenses the user will see the expenses listed under the date they were entered for. Review expenses has it's own menu at the bottom of the screen, (edit = 1, delete = 2, and exit = E). These menu opinions can be used to edit an already exsisting expenses or to delete one, exit is used to return to the main menu.\n\n" +
-                "Expense Average:\n\n Gives you the average expense of all entrys entered.\n\n" +
+                "Input Expenses:\n\n This is where daily expenses are entered and must follow a specific format (format: [$0.00, description, mm/dd/yy] example: [$123.45, Walmart, 05/12/21) when finished the user will enter done and then push any button to return to the main menu.\n\n" +
+                "Review Expenses:\n\n When reviewing expenses the user will see the expenses listed under the date they were entered for. Review expenses has it's own menu at the bottom of the screen, (edit = 1, delete = 2, and exit = E). These menu opinions can be used to edit an already exsisting expense or to delete one, exit is used to return to the main menu.\n\n" +
+                "Expense Average:\n\n Gives you the average expense of all entrys.\n\n" +
                 "Budget Calculator:\n\n Has another menu (set budget = 1, review budget = 2, and exit = E) this is where the user will set a daily budget for themselves, review their daily budget against the expenses and see the remaining amount and the percentage of the budget used for each day.");
 
                 DisplayContinuePrompt();
@@ -335,6 +337,8 @@ namespace ExpenseTracker
             }
             Console.WriteLine();
 
+            // using or ( || ) operator here
+
             while(!int.TryParse(Console.ReadLine(), out expenseToEdit) || expenseToEdit - 1 > sorted[dateToEdit].Count - 1)
             {
                 Console.WriteLine("That doesn't seem to be a valid number. Please try again...");
@@ -458,6 +462,7 @@ namespace ExpenseTracker
         }
 
         // validate expense returns a boolean value
+        // validate every type of input and provide a feedback message
 
         static bool ValidateExpense(string expense)
         {
